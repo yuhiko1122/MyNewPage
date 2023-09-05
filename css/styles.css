@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.split {
+  display: table;
+  width: 100%;
+}
+
+.split-item {
+  display: table-cell;
+  width: 50%;
+}
+
+.split-left {
+  background: #fff100;
+  color: #000000;
+  position: relative;
+}
+
+.split-left__inner {
+  height: 100%;
+  position: fixed;
+  width: 50%;
+  text-align: center;
+}
+.split-left__inner img {
+  width: 400px;
+}
+
+.split-right {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.split-right__inner {
+  height: 1000px;
+}/*# sourceMappingURL=styles.css.map */

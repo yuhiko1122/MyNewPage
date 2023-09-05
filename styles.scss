@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+$fff100: #fff100;
+$black: #000000;
+$white: #ffffff;
+
+.split {
+  display: table;
+  width: 100%;
+}
+.split-item {
+  display: table-cell;
+  width: 50%;
+}
+.split-left {
+  background: $fff100;
+  color: $black;
+  position: relative;
+}
+.split-left__inner {
+  height: 100%;
+  position: fixed;
+  width: 50%;
+  text-align: center;
+  img {
+    width: 400px;
+  }
+}
+.split-right {
+  background-color: $white;
+  color: $black;
+}
+.split-right__inner {
+  height: 1000px;
+}
